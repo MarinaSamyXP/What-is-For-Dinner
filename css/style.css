@@ -1,0 +1,294 @@
+:root {
+  --color-gray: #6a7282;
+  --main-color: #ff6900;
+  --color-orange: #f54a00;
+}
+
+/* & Utilities */
+.cg {
+  color: var(--color-gray);
+}
+.main-color {
+  color: var(--main-color);
+}
+.color-gray {
+  color: #4a5565;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+/* &================= */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* & Navbar Styles */
+.navbar-toggler {
+  border: none;
+  box-shadow: none;
+  color: black;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:hover {
+  color: var(--color-orange);
+}
+
+.navbar {
+  border-bottom: 1px solid #ffedd4;
+  box-shadow: 0px 0px 3px rgba(255, 237, 212, 0.3);
+}
+.bg-body-tertiary {
+  background-color: #fff;
+}
+
+.navbar ul li img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffb86a;
+}
+
+.navbar ul li i {
+  transition: color 300ms ease;
+}
+
+.navbar ul li i:hover,
+.navbar ul li span:hover {
+  color: var(--color-orange);
+}
+
+.navbar ul {
+  border-top: 1px solid #ffedd4;
+}
+
+.fa-utensils {
+  width: 48px;
+  height: 48px;
+  background-color: var(--main-color);
+}
+
+/* & Dinner Section Styles */
+.dinner {
+  background-image: linear-gradient(to bottom right, #f7e5d1, #fffbeb, #fefce8);
+  padding: 32px 24px;
+}
+
+.dinner .container {
+  border-radius: 15px;
+  padding: 0px;
+  border: 1px solid #ffedd4;
+  margin-bottom: 32px;
+}
+.dinner-image img {
+  min-height: 720px;
+}
+
+.instructions {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.reviews {
+  top: 20px;
+  left: 20px;
+}
+
+.meal-info {
+  padding: 12px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+}
+
+i {
+  font-size: 18px;
+}
+.fa-fire-burner {
+  color: #e7000b;
+}
+
+.fa-users {
+  color: #1447e6;
+}
+
+.dinner-content {
+  padding: 30px;
+}
+
+.dinner .fa-bookmark,
+.dinner .fa-share-nodes {
+  color: var(--color-orange);
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  background-color: #ffedd4;
+  transition: background-color 300ms ease;
+}
+
+.dinner .fa-bookmark:hover,
+.dinner .fa-share-nodes:hover {
+  background-color: #ffd7a8;
+}
+
+.easy {
+  color: #008236;
+  background-color: #dcfce7;
+  padding: 4px 12px;
+  margin-right: 12px;
+}
+.Mediterranean {
+  color: #1447e6;
+  background-color: #dbeafe;
+  padding: 4px 12px;
+}
+
+.ingredients {
+  background-image: linear-gradient(to bottom right, #fff7ed, #fffbeb);
+}
+
+.ingredients ul li {
+  margin-bottom: 12px;
+}
+
+.ingredients .num {
+  width: 24px;
+  height: 24px;
+  background-color: var(--main-color);
+  margin: 2px 12px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instructions .number {
+  width: 48px;
+  height: 48px;
+  background-color: var(--main-color);
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Protein,
+.Calories,
+.Fat,
+.Carbohydrates,
+.Fiber,
+.Sodium {
+  background-color: #fbf9fa;
+}
+
+.nutrition p {
+  font-size: 12px;
+  color: #364153;
+}
+
+.nutrition i {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.fa-fire {
+  background-color: #ffedd4;
+  color: var(--main-color);
+}
+.fa-dumbbell {
+  color: #1447e6;
+  background-color: #dbeafe;
+}
+
+.fa-wheat-awn {
+  color: #d08700;
+  background-color: #fef9c2;
+}
+
+.fa-droplet {
+  background-color: #ffe2e2;
+  color: #e7000b;
+}
+.fa-seedling {
+  color: #00a63e;
+  background-color: #dcfce7;
+}
+.fa-cube {
+  background-color: #fce7f3;
+  color: #e60076;
+}
+.tips {
+  background-color: #fffbeb;
+  border-left: 4px solid #ffb900;
+}
+
+.fa-check {
+  width: 20px;
+  height: 20px;
+  background-color: #e17100;
+  color: white;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.dinner .nav-link {
+  color: var(--color-gray);
+
+  transition: color 300ms ease;
+}
+
+.dinner .nav-link:hover {
+  color: #364153;
+  border: none;
+  border-radius: none;
+  translate: none;
+}
+
+.dinner .nav-link:focus {
+  outline: none;
+  color: var(--color-orange);
+  border-bottom: 2px solid var(--color-orange);
+}
+
+.dinner .nav-link.active {
+  border-color: none;
+}
+
+.btn {
+  background-image: linear-gradient(to right, var(--main-color), #fb2c36);
+  padding: 12px 24px;
+  transition:
+    transform 300ms ease,
+    font-size 300ms ease;
+}
+.button {
+  margin-top: 24px;
+  border-top: 1px solid #ebe6e7;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, var(--color-orange), #e7000b);
+  transform: scale(1.05);
+  font-size: 19px;
+}
+.nav-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+li button {
+  white-space: nowrap;
+}
