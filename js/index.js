@@ -772,7 +772,7 @@ function displayMeal(randomMeal) {
             <div
               class="mb-4 d-flex flex-column flex-lg-row-reverse g-5 justify-content-between"
             >
-              <div class="d-flex gap-2 justify-content-end">
+              <div class="d-flex gap-2 justify-content-end mb-3">
                 <i
                   class="fa-solid fa-bookmark rounded-4 d-flex align-items-center justify-content-center"
                 ></i>

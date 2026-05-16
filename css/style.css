@@ -39,6 +39,24 @@ body {
   border: none;
   box-shadow: none;
   color: black;
+  width: 21px;
+  height: 24px;
+}
+
+.navbar .container {
+  padding: 0px 8px;
+}
+
+.navbar h1 {
+  font-size: 16px;
+}
+
+.navbar p {
+  font-size: 12px;
+}
+
+.navbar-brand {
+  margin-right: 0px;
 }
 .navbar-toggler:focus {
   outline: none;
@@ -286,7 +304,7 @@ i {
 }
 .nav-tabs {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 li button {

@@ -14,4 +14,13 @@
   .nutrition p {
     font-size: 15px;
   }
+  .navbar .navbar-brand h1 {
+    font-size: 24px;
+  }
+  .navbar p {
+    font-size: 14px;
+  }
+  .nav-tabs {
+    flex-wrap: nowrap;
+  }
 }
